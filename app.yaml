@@ -1,0 +1,7 @@
+runtime: nodejs16
+
+env: standard
+
+handlers:
+  - url: /.*
+    script: lib/index.js
